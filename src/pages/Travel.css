@@ -1,9 +1,9 @@
 .Travel {
   text-align: center;
-}
+  background-color: teal;
 
+}
 main {
   flex: 1;
-  background-color: purple;
   color: white;
 }

@@ -15,12 +15,10 @@ class App extends Component{
         <div className="wrapper">
           <Router>
             <div className="links">
-              <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/sports">Sports</Link></li>
-                <li><Link to="/travel">Travel</Link></li>
-                <li><Link to="/photos">Photos</Link></li>
-              </ul>
+                <div><Link to="/">Home</Link></div>
+                <div><Link to="/sports">Sports</Link></div>
+                <div><Link to="/travel">Travel</Link></div>
+                <div><Link to="/photos">Photos</Link></div>
             </div>
                 <Switch>
                   <Route exact path="/"       component={Home}></Route>
@@ -30,6 +28,7 @@ class App extends Component{
                 </Switch>
             </Router>
         </div>
+        <footer>Contact Me! </footer>
       </div>
     );
   }

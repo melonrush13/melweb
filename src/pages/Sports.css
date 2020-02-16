@@ -1,10 +1,10 @@
 .Sports {
     text-align: center;
-  }
+    background-color: teal;
+ }
 
 main {
     flex: 1;
-    background-color: pink;
     color: white;
 }
   

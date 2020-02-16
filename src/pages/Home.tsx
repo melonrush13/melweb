@@ -6,20 +6,18 @@ const Home = () => {
     return(
         <div className="Home">
         <div className="wrapper">
-          <header>
-            <button>Travel</button>
-            <button>Photography</button>
-            <button>Sports</button>
-          </header>
-          <main>
-            <p>I'm the main-content filling the void!</p>
-            <div>
-                {/* <Link to="/photo">Photos</Link> */}
+            <div className="About">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Etiam semper dignissim tristique. Vestibulum placerat, 
+                    dolor in hendrerit laoreet, ante mi vulputate purus, nec 
+                    laoreet nibh lectus vitae neque. Nam commodo ut orci ac 
+                    euismod. Duis commodo convallis ipsum. In maximus orci ut 
+                    nulla imperdiet efficitur. Donec orci leo, efficitur 
+                    vulputate tempus vel, lobortis at sem. Ut libero libero, 
+                    dapibus sit amet odio vitae, aliquam rutrum erat. Fusce 
+                    sapien lorem, cursus vitae diam in, rutrum lacinia neque.</p>
             </div>
-          </main>
-          <footer>
-            <p>Contact me</p>
-          </footer>
         </div>
       </div>
     )
