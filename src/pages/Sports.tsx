@@ -1,16 +1,15 @@
 import React from 'react';
-import './Photography.css';
 
-function Photography() {
+function Sports() {
   return (
-    <div className="Photography">
+    <div className="Sports">
         <div className="wrapper">
             <div className="main">
-                <p>Photos and stuff!</p>
+                <p>Sports and stuff!</p>
             </div>
         </div>
     </div>
   );
 }
 
-export default Photography;
+export default Sports;

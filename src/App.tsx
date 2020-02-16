@@ -1,18 +1,36 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hello  from "./pages/Hello";
+import Travel  from "./pages/Travel";
 import Photography  from "./pages/Photography";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Sports  from "./pages/Sports";
+import Home  from "./pages/Home";
 
-class App extends Component {
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+class App extends Component{
   render() {
-    return(
-      <Router>
-        <Switch>
-          <Route exact path="/hello" component={Hello} />
-          <Route exact path="/photo" component={Photography} />
-        </Switch>
-      </Router>
+    return (
+      <div className="App">
+        <div className="wrapper">
+          <Router>
+            <div className="links">
+              <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/sports">Sports</Link></li>
+                <li><Link to="/travel">Travel</Link></li>
+                <li><Link to="/photos">Photos</Link></li>
+              </ul>
+            </div>
+                <Switch>
+                  <Route exact path="/"       component={Home}></Route>
+                  <Route exact path="/sports" component={Sports}></Route>
+                  <Route exact path="/travel" component={Travel}></Route>
+                  <Route exact path="/photos" component={Photography}></Route>
+                </Switch>
+            </Router>
+        </div>
+      </div>
     );
   }
 }

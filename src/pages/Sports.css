@@ -1,10 +1,10 @@
-.Photography {
+.Sports {
     text-align: center;
   }
 
 main {
     flex: 1;
-    background-color: yellow;
+    background-color: pink;
     color: white;
 }
   
