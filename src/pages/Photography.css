@@ -1,0 +1,10 @@
+.Photography {
+    text-align: center;
+  }
+
+main {
+    flex: 1;
+    background-color: pink;
+    color: white;
+}
+  
