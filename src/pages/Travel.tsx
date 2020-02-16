@@ -1,8 +1,8 @@
 import React from 'react';
-import './Hello.css';
+import './Travel.css';
 import { Link, Router } from "react-router-dom";
 
-const Hello = () => {
+const Travel = () => {
     return(
         <div className="Hello">
         <div className="wrapper">
@@ -25,4 +25,4 @@ const Hello = () => {
     )
 }
 
-export default Hello;
+export default Travel;
