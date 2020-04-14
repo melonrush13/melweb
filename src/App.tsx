@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Travel  from "./pages/Travel";
-import Photography  from "./pages/Photography";
-import Sports  from "./pages/Sports";
+import Blog  from "./pages/Blog";
+import Resume  from "./pages/Resume";
 import Home  from "./pages/Home";
 
 
@@ -15,16 +15,16 @@ class App extends Component{
         <div className="wrapper">
           <Router>
             <div className="links">
-                <div><Link to="/">Home</Link></div>
-                <div><Link to="/sports">Sports</Link></div>
-                <div><Link to="/travel">Travel</Link></div>
-                <div><Link to="/photos">Photos</Link></div>
+                <button><Link to="/">Home</Link></button>
+                <button><Link to="/resume">Resume</Link></button>
+                <button><Link to="/adventures">Adventures</Link></button>
+                <button><Link to="/blog">Blog</Link></button>
             </div>
                 <Switch>
                   <Route exact path="/"       component={Home}></Route>
-                  <Route exact path="/sports" component={Sports}></Route>
-                  <Route exact path="/travel" component={Travel}></Route>
-                  <Route exact path="/photos" component={Photography}></Route>
+                  <Route exact path="/resume" component={Resume}></Route>
+                  <Route exact path="/adventures" component={Travel}></Route>
+                  <Route exact path="/blog" component={Blog}></Route>
                 </Switch>
             </Router>
         </div>

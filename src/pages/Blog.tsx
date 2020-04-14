@@ -1,9 +1,9 @@
 import React from 'react';
-import './Photography.css';
+import './Blog.css';
 
-function Photography() {
+function Blog() {
   return (
-    <div className="Photography">
+    <div className="Blog">
         <div className="wrapper">
             <div className="main">
                 <p>Photos and stuff!</p>
@@ -13,4 +13,4 @@ function Photography() {
   );
 }
 
-export default Photography;
+export default Blog;

@@ -1,6 +1,6 @@
 .Home {
-    text-align: left;
-    background-color: teal;
+    text-align: center;
+    background-color: white;
   }
   
   .App-logo {
@@ -14,6 +14,10 @@
     }
   }
   
+  .about {
+    background-color: pink;
+  }
+
   .wrapper {
     height: 100vh;
     display: flex;

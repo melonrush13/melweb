@@ -1,24 +1,23 @@
 import React from 'react';
 import './Home.css';
-import { Link, Router,  } from "react-router-dom";
+import headerimg from './photos/melheader.jpg';
 
 const Home = () => {
     return(
         <div className="Home">
-        <div className="wrapper">
-            <div className="About">
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Etiam semper dignissim tristique. Vestibulum placerat, 
-                    dolor in hendrerit laoreet, ante mi vulputate purus, nec 
-                    laoreet nibh lectus vitae neque. Nam commodo ut orci ac 
-                    euismod. Duis commodo convallis ipsum. In maximus orci ut 
-                    nulla imperdiet efficitur. Donec orci leo, efficitur 
-                    vulputate tempus vel, lobortis at sem. Ut libero libero, 
-                    dapibus sit amet odio vitae, aliquam rutrum erat. Fusce 
-                    sapien lorem, cursus vitae diam in, rutrum lacinia neque.</p>
+            <div>
+                <img src={headerimg}></img>
             </div>
-        </div>
+            <div className="wrapper">
+                <div className="About">
+                    <h1>About Me</h1>
+                    <p>Hello! I am a software engineer working at Microsoft, 
+                        on the Commerical Software Engineering team. I was born and raised in the 
+                        suburbs of Chicago, and then moved to Madison, Wisconsin to pursue 
+                        a degree in Computer Science. Now you can find me in the mountains
+                        in Boulder, Colorado</p>
+                </div>
+            </div>
       </div>
     )
 }
