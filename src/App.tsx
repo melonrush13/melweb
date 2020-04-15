@@ -6,7 +6,7 @@ import Resume  from "./pages/Resume/Resume";
 import Home  from "./pages/Home/Home";
 
 
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 class App extends Component{
   render() {

@@ -6,7 +6,7 @@ const Home = () => {
     return(
         <div className="Home">
             <div>
-                <img src={headerimg}></img>
+                <img src={headerimg} alt="Mel looking over a beach in New Zealand"></img>
             </div>
             <div className="wrapper">
                 <div className="About">
