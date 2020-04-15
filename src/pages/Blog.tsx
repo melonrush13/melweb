@@ -6,7 +6,7 @@ function Blog() {
     <div className="Blog">
         <div className="wrapper">
             <div className="main">
-                <p>Photos and stuff!</p>
+                <p>Tech blogs to go here!</p>
             </div>
         </div>
     </div>

@@ -1,13 +1,16 @@
 import React from 'react';
 import './Resume.css';
+import resumefile from './files/melanieresume2019.jpg';
+
 
 function Resume() {
   return (
     <div className="Resume">
         <div className="wrapper">
             <div className="main">
-              <h1>Resume</h1>
-                <div className="skills">
+              <h1> Resume: </h1> 
+              <a href={resumefile} download>Download Mel's Resume</a>
+                {/* <div className="skills">
                   <h3>Skills</h3>
                   <ul>
                     <li>
@@ -32,7 +35,7 @@ function Resume() {
                     <li> <strong>UCU Boulder </strong>(In Progress) Masters Computer Sciences</li>
                     <li> <strong>UW Madison </strong>B.S. Computer Sciences</li>
                   </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

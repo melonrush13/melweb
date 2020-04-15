@@ -14,11 +14,17 @@ class App extends Component{
       <div className="App">
         <div className="wrapper">
           <Router>
-            <div className="links">
-                <button><Link to="/">Home</Link></button>
-                <button><Link to="/resume">Resume</Link></button>
-                <button><Link to="/adventures">Adventures</Link></button>
-                <button><Link to="/blog">Blog</Link></button>
+            <div className="header" id="mainHeader">
+              <header>
+                <nav>
+                  <div>
+                      <button className="links"><Link to="/">Home</Link></button>
+                      <button className="links"><Link to="/resume">Resume</Link></button>
+                      <button className="links"><Link to="/adventures">Adventures</Link></button>
+                      <button className="links"><Link to="/blog">Blog</Link></button>
+                  </div>
+                </nav>
+              </header>
             </div>
                 <Switch>
                   <Route exact path="/"       component={Home}></Route>
