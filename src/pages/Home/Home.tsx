@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import headerimg from './files/melheader.jpg';
+import headerimg from './melheader.jpg'
 
 const Home = () => {
     return(

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Travel.css';
+import './Adventures.css';
 
 
-function Travel() {
+function Adventures() {
   return (
-    <div className="Travel">
+    <div className="Main">
         <div className="wrapper">
         <div>
           <h1>Places</h1>
@@ -19,4 +19,4 @@ function Travel() {
   );
 }
 
-export default Travel;
+export default Adventures;

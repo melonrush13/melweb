@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Travel  from "./pages/Travel";
-import Blog  from "./pages/Blog";
-import Resume  from "./pages/Resume";
-import Home  from "./pages/Home";
+import Adventure  from "./pages/Adventures/Adventures";
+import Blog  from "./pages/Blog/Blog";
+import Resume  from "./pages/Resume/Resume";
+import Home  from "./pages/Home/Home";
 
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -29,7 +29,7 @@ class App extends Component{
                 <Switch>
                   <Route exact path="/"       component={Home}></Route>
                   <Route exact path="/resume" component={Resume}></Route>
-                  <Route exact path="/adventures" component={Travel}></Route>
+                  <Route exact path="/adventures" component={Adventure}></Route>
                   <Route exact path="/blog" component={Blog}></Route>
                 </Switch>
             </Router>
