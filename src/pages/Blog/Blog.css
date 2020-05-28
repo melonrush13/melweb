@@ -1,10 +1,9 @@
-.Blog {
+.Main {
     text-align: center;
-    background-color: white;
-}
-
-main {
+    background-color: pink;
+  
+  }
+  main {
     flex: 1;
     color: white;
-}
-  
+  }
