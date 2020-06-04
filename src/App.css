@@ -1,28 +1,45 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+a {
+  color: navy;
+  text-decoration: none;
+}
 
-.links {
-  flex-direction: row;
+a:hover {
+  text-decoration: underline;
+}
+
+.menu li {
+  font-size: 16px;
+  padding: 15px 6px;
+}
+
+.menu li a{
+  display: block;
+}
+
+.logo{
   font-size: 20px;
-  background-color: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
-/* Header Styling */
-.header {
-  padding: 10px 16px;
-  background: purple;
-  color: #f1f1f1;
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  min-height: 8vh;
+  font-family: 'Raleway', sans-serif;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
+.toggle{
+  cursor: pointer;
 }
